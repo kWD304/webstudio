@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatidle" content="IE=edge">
+     <meta name="viwport" content="wiidth, initial-scale=1.0"
+     <title>Document</title>
+     <style>
+        body {
+            background-color:lightyellow;
+        }
+        .bgcolor--blue {
+            background-color: lightblue;
+        }
+     </style>     
+</head>
+<body>
+    한국의 월트디즈니 웹툰작가 최현서입니다.
+    <button class="btn_bg">배경색상변경</button>
+    <script>
+        const btnBg = document.querySelector('.btn_bg');
+        btnBg.addEventListener('click',function () {
+            document.body.classList.toggle('bgcolor--blue');
+        })
+    </script>
+</body>
+</html>    
